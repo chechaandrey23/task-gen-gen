@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall" : "(cd source && npm install); (cd server && npm install); (cd server && npm run build); (cd client && npm install); (cd client && npm run build);",
-    "start": "(cd server && npm run start:prod);"
+    "postinstall" : "(cd source && npm install); (cd server && npm install); (cd client && npm install); ",
+    "start": "(cd server && npm run start:prod);",
+    "build": "(node ./source/parser.us.first.name.mjs); (node ./source/parser.us.last.name.mjs); (node ./source/parser.us.state.mjs); (node ./source/parser.us.city.mjs); (node ./source/parser.us.street.mjs); (node ./source/parser.uk.first.name.mjs); (node ./source/parser.uk.last.name.mjs); (node ./source/parser.uk.state.mjs); (node ./source/parser.uk.city.mjs); (node ./source/parser.uk.street.mjs); (node ./source/parser.ru.first.name.mjs); (node ./source/parser.ru.last.name.mjs); (node ./source/parser.ru.state.mjs); (node ./source/parser.ru.city.mjs); (node ./source/parser.ru.street.mjs); (cd server && npm run build); (cd client && npm run build);"
   },
   "author": "",
   "license": "ISC"
