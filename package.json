@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postinstall" : "(cd source && npm install); (cd server && npm install); (cd client && npm install); ",
     "start": "(cd server && npm run start:prod);",
-    "build": "(cd source && node parser.us.first.name.mjs); (cd source && node parser.us.last.name.mjs); (cd source && node parser.us.state.mjs); (cd source && node parser.us.city.mjs); (cd source && node parser.us.street.mjs); (cd source && node parser.uk.first.name.mjs); (cd source && node parser.uk.last.name.mjs); (cd source && node parser.uk.state.mjs); (cd source && node parser.uk.city.mjs); (cd source && node parser.uk.street.mjs); (cd source && node parser.ru.first.name.mjs); (cd source && node parser.ru.last.name.mjs); (cd source && node parser.ru.state.mjs); (cd source && node parser.ru.city.mjs); (cd source && node parser.ru.street.mjs); (cd server && npm run build); (cd client && npm run build);"
+    "building": "(cd source && node parser.us.first.name.mjs); (cd source && node parser.us.last.name.mjs); (cd source && node parser.us.state.mjs); (cd source && node parser.us.city.mjs); (cd source && node parser.us.street.mjs); (cd source && node parser.uk.first.name.mjs); (cd source && node parser.uk.last.name.mjs); (cd source && node parser.uk.state.mjs); (cd source && node parser.uk.city.mjs); (cd source && node parser.uk.street.mjs); (cd source && node parser.ru.first.name.mjs); (cd source && node parser.ru.last.name.mjs); (cd source && node parser.ru.state.mjs); (cd source && node parser.ru.city.mjs); (cd source && node parser.ru.street.mjs); (cd server && npm run build); (cd client && npm run build);"
   },
   "author": "",
   "license": "ISC"
