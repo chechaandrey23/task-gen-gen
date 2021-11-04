@@ -1,0 +1,9 @@
+[submodule "source"]
+	path = source
+	url = https://github.com/chechaandrey23/task-gen-parser
+[submodule "client"]
+	path = client
+	url = https://github.com/chechaandrey23/task-gen-client
+[submodule "server"]
+	path = server
+	url = https://github.com/chechaandrey23/task-gen-server
